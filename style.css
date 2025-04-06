@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.Imagenes {
+display: flex;
+justify-content: center;
+}
+.img-1 {
+    margin-right: 10px;
+    position: relative;
+margin-top: 10px;
+}
+.img-2{
+    margin-right: 10px;
+    position: relative;
+margin-top: 10px;
+}
+.img-3 {
+margin-right: 10px;
+position: relative;
+margin-top: 10px;
+}
+.img-4 {
+    margin-right: 10px;
+    position: relative;
+margin-top: 10px;
+}
+.img-5{
+    margin-right: 10px;
+    position: relative;
+margin-top: 10px;
+}
+.img-6 {
+margin-right: 10px;
+position: relative;
+margin-top: 10px;
+}
+.Galeria-herramientas
+{
+    background-color:brown;
+    color: aliceblue;
+  text-align: left;
+
+padding: 2px;
+
+}
+.seccion-contacto {
+justify-items: left;
+justify-self: right;
+}
+
+
+.btn-contacto {
+  border: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 2cap rgba(0,0,0,0.1);
+}
+
+.btn-contacto a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-contacto:hover {
+  background-color: rgba(160, 150, 150, 0.8);
+  transform: scale(1.05);
+  box-shadow: 4px 4px 2px rgba(0,0,0,0.2);
+}
+
+.btn-contacto a:hover {
+  color: #000;
+}
+.PrimerParrafo{
+position: relative;
+
+}
+.contorno-fondo{
+    background-color: rgba(40, 39, 39, 0.73);
+    height: 350px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    }
+.Slider-Imagenes{
+    width: 100%;
+    height: 300px;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+
+}
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+ 
+}
+
+#mover-alambrito {
+  position: relative;
+  left: 1150px;
+  color: rgb(11, 11, 216);
+}

@@ -1,0 +1,74 @@
+<title>Ferretería - Contacto</title>
+<style>
+    body{
+    font-weight: bold;
+    font-display: flex;
+    }
+    .form-container input, .form-container select, .form-container button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+    .form-container input:focus, .form-container select:focus {
+        outline: none;
+        border-color: #ff4d4d;
+        box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+    }
+    .form-container button {
+        background: #ff4d4d;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    .form-container button:hover {
+        background: #cc0000;
+    }
+    .back-button {
+        background: #333;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    .back-button:hover {
+        background: #555;
+    }
+   
+</style>
+<header style="background-color: brown;">
+<h2>Contáctanos</h2>
+
+</header>
+</head>
+<body>
+<div class="form-container">
+  
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+    
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" placeholder="Ingresa tu apellido">
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Ingresa tu email">
+    
+    <label for="ciudad">Ciudad:</label>
+    <input type="text" id="ciudad" placeholder="Ingresa tu ciudad">
+    
+    <label for="edad">Edad:</label>
+    <select id="edad">
+        <option value="menor18">Menos de 18</option>
+        <option value="18-40">Entre 18 y 40</option>
+        <option value="mas40">Más de 40</option>
+    </select>
+    
+    <button type="submit">Enviar</button>
+</div>
+<button class="back-button" onclick="window.history.back()">Volver</button>
+</body>
+</html>

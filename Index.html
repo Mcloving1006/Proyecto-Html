@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<head>
+    
+    <!--Metadata del sitio web-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcurt icon" href="FA icon.ico">
+    <!--Titulo de la pagina web -->
+
+    <title>Ferretería-Alambres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>    
+<section>
+        <!--Cabecera del sitio-->
+    <header style="background-color: brown;">
+        <!--Nombre de la ferretería-->
+        <center>    
+            <h1 style="color: aliceblue;"> Ferretería-Alambrito </h1>
+
+    </header>
+    <a href="alambrito.html" id="mover-alambrito">Alambrito</a>
+    <hr>
+    
+<div class="PrimerParrafo">
+<ul>
+    <p>Direccion: Avenida Aguirre 0025<p>
+    <p>Número: +56 9 8386 9912</p></p>
+</ul>
+</div>
+</section>
+
+    <!--Seccion de categorías-->
+    <!--Primera Categoría-->
+    <section id="Categoria-Herramientas">
+        <div class="Galeria-herramientas">
+            <ul>       
+            
+                <h2>Galería de herramientas</h2>
+            </ul>
+        </div>
+
+        <div class="Slider-Imagenes">
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="Img.jpg" alt="Imagen1" width="100%" height="300px"></div>
+      <div class="swiper-slide"><img src="Img-2.jpg" alt="Imagen1" width="100%" height="300px"></div>
+      <div class="swiper-slide"><img src="Img-3.jpg" alt="Imagen1" width="100%" height="300px"></div>
+      <div class="swiper-slide"><img src="Img-4.jpg" alt="Imagen1" width="100%" height="300px"></div>
+      <div class="swiper-slide"><img src="Img-5.jpg" alt="Imagen1" width="100%" height="300px"></div>
+      <div class="swiper-slide"><img src="Img-6.jpg" alt="Imagen1" width="100%" height="300px"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+        </div>
+    </section>
+
+
+
+    <!--Informacion de contacto y boton de formulario-->
+    <hr>
+    <section>
+        <div class="contorno-fondo">
+    <footer>
+        <div class="seccion-contacto">
+        
+        <p style="color: aliceblue;">Email: Ferreterialambrito@gmail.com</p>
+        <br>
+        <p style="color: aliceblue;">Direccion: Avenida Aguirre 0025</p>
+        <br>
+        <p style="color: aliceblue;">Número: +56 9 8386 9912</p>
+    <div class="btn-contacto">
+        <br>
+    <button>
+    <a href="contacto.html">Contáctanos</a>
+    </button>
+</div>
+    </footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+
+      });
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
